@@ -1,0 +1,116 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Light blue background */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form container */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Headings */
+h1, h2 {
+    color: #1a73e8; /* Dark blue for headings */
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Labels and input fields */
+label {
+    display: block;
+    margin: 15px 0 5px; /* Space between label and field */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #e9f0fb; /* Light blue background for inputs */
+}
+
+/* Button styling */
+input[type="submit"],
+button {
+    background-color: #1a73e8; /* Blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #155bb5; /* Darker blue on hover */
+}
+
+/* Checkbox and radio styling */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Table for submitted applications */
+#applicationTable {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #1a73e8;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f0f4f8; /* Alternate row color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    input[type="submit"],
+    button {
+        width: 100%;
+    }
+}
